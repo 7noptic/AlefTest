@@ -1,0 +1,33 @@
+.readmore{
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 24px 129px;
+  border: 1px solid #CACACA;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  transition: .3s all;
+
+  &:hover{
+    background: darken(#fff, 25%);
+    border: 1px solid darken(#CACACA, 25%);
+  }
+  &:active{
+    background: darken(#fff, 35%);
+    border: 1px solid darken(#CACACA, 35%);
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .readmore{
+    padding: 20px 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .readmore{
+    padding: 20px 70px;
+  }
+}

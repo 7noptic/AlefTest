@@ -1,0 +1,60 @@
+.contacts {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  &__number {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    transition: .3s;
+
+    &:hover{
+      color: darken(#fff, 35%);
+    }
+    &:active,&:focus{
+      transform: scale(1.05);
+    }
+  }
+  &__sub {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .contacts{
+    &__number{
+      font-size: 22px;
+
+    }
+    &__sub {
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .contacts {
+    &__number {
+      font-size: 18px;
+      padding-top: 15px;
+
+    }
+
+    &__sub {
+      font-size: 12px;
+    }
+  }
+}
+@media screen and (max-width: 425px){
+  .contacts {
+    &__number {
+      font-size: 14px;
+      padding-top: 15px;
+
+    }
+
+    &__sub {
+      font-size: 12px;
+    }
+  }
+}

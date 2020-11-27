@@ -1,0 +1,9 @@
+.arrowtop{
+
+  &::after{
+    content: url('../img/arrowbottom.svg');
+    display: inline-block;
+    margin-left: 14px;
+    transform: rotate(180deg);
+  }
+}

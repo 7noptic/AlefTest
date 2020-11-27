@@ -1,0 +1,73 @@
+.sort{
+  display: flex;
+  font-size: 18px;
+  padding: 37px 0;
+
+  &__title{
+    font-weight: 700;
+    padding-right: 48px;
+  }
+  &__price{
+    padding-right: 84px;
+    border: none;
+    background: transparent;
+    transition: .3s all;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.05);
+    }
+    &:active,&:focus{
+      transform: scale(1.05);
+      text-decoration: underline;
+    }
+  }
+  &__age{
+    border: none;
+    background: transparent;
+    transition: .3s all;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.05);
+    }
+    &:active,&:focus{
+      transform: scale(1.05);
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .sort{
+    &__title{
+      padding-right: 40px;
+
+    }
+    &__price{
+      padding-right: 50px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .sort{
+    font-size: 16px;
+    &__title{
+      padding-right: 25px;
+
+    }
+    &__price{
+      padding-right: 35px;
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .sort{
+    font-size: 14px;
+    &__title{
+      padding-right: 15px;
+
+    }
+    &__price{
+      padding-right: 20px;
+    }
+  }
+}

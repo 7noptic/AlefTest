@@ -1,0 +1,18 @@
+.sale{
+  position: absolute;
+  top: 36px;
+  left: 46px;
+  font-size: 16px;
+  color: #fff;
+  padding: 9px 18px;
+  background: #E62D2D;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1024px){
+  .sale{
+    top: 30px;
+    left: 30px;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,7 @@
+.arrowbottom{
+
+  &::after{
+    content: url('../img/arrowbottom.svg');
+    padding-left: 14px;
+  }
+}

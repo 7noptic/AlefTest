@@ -1,0 +1,15 @@
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+  &:last-child{
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 576px){
+  .row{
+    justify-content: center;
+  }
+}

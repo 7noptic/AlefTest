@@ -1,0 +1,17 @@
+.header{
+  background-image: url('../img/header.jpg');
+  background-color: rgba(31, 32, 33, 0.79);
+  background-blend-mode: overlay;
+  max-width: 1440px;
+
+}
+@media screen and (max-width: 768px) {
+  .header{
+    background-position-x: -205px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header{
+    background-position-x: -350px;
+  }
+}

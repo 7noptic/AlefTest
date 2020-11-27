@@ -1,0 +1,26 @@
+.heart{
+  cursor: pointer;
+  position: absolute;
+  top: 36px;
+  right: 32px;
+  transition: .3s all;
+  & svg{
+    & path{
+      &:hover{
+        fill-opacity: .7;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1024px){
+  .heart{
+    top: 25px;
+    right: 11px;
+    transition: .3s all;
+    display: block;
+    transform: scale(.7);
+  }
+
+}
